@@ -1,7 +1,7 @@
 Scrolli - A jQuery Scrollbar
 =======
 
-A simple jQuery plugin for custom scrollbars
+A simple jQuery plugin for custom scrollbars   
 An iOS style is included.
 
 
