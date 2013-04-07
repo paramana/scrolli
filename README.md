@@ -12,8 +12,11 @@ An iOS style is included.
 
 ## Usage
 
-To add the scrollbar to an element you do:
+To add the scrollbar to an element you do:    
 `$('#scrollbar').scrolli([options]);`
+
+In the demo you can update your components with bower
+Otherwise you need to add query and requirejs manually
 
 ## Options
 
