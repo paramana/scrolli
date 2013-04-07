@@ -47,7 +47,7 @@ Otherwise you need to add them manually and update the paths in __index.html__  
 * `noSelectClass` :  __default__: 'no-select'
 
 
-## TODO
+## Todo
 
 * Destroy function should fall back on using native scrollbars
 * Make vertical scrollbars work as the horizontal axis
