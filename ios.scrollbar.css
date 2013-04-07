@@ -1,0 +1,58 @@
+/* Scroll bar styling */
+.no-select { 
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none; 
+}
+.scrollbar-wraper {
+    position:relative;
+}
+.viewport { 
+    width: 500px; 
+    height: 400px; 
+    overflow: hidden; 
+    position: relative; 
+}
+.overview {
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+}
+.scrollbar-track { 
+    bottom:3px;
+    display:none;
+    position:absolute;
+    right:2px;
+    top:2px;
+    -moz-user-select:none;
+    width:7px;
+    z-index:5;
+}
+.track-over {
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    width: 10px;
+}
+.thumb {
+    background-clip:content-box;
+    background-color:rgba(0, 0, 0, .4);
+    border:1px solid rgba(85, 85, 85, .6);
+    border-radius:7px;
+    position:absolute;
+    right:0;
+    -moz-transition:width 250ms;
+    width:5px;
+}
+.track-over .thumb {
+    width: 8px
+}
+.disable {
+    display: none;
+}
+.hidden-elem {
+    opacity: 0;
+    visibility: hidden;
+}
