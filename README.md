@@ -13,7 +13,6 @@ An iOS style is included.
 ## Usage
 
 To add the scrollbar to an element you do:
-
 `$('#scrollbar').scrolli([options]);`
 
 ## Options
@@ -39,20 +38,19 @@ To add the scrollbar to an element you do:
 * `noSelectClass` :  __default__: 'no-select'
 
 
-### TODO
+## TODO
 
 * Destroy function should fall back on using native scrollbars
-* 
 * Make vertical scrollbars work as the horizontal axis
 
-### Author
+## Author
 
 Initial code taken from 
 [Maarten Baijs](http://www.baijs.nl/tinyscrollbar/)    
 
 Updated by [@giannis](https://github.com/giannis/)
 
-### Copyright
+## Copyright
 
 Dual licensed under the MIT or GPL Version 2 licenses.
 
