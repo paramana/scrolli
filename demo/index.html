@@ -45,13 +45,8 @@
             </div>
         </div> 
 
-        <script src="requirejs/require.js"></script>
+        <script src="require.js"></script>
         <script type="text/javascript">
-            require.config({
-                paths: {
-                    "jquery": "jquery/jquery"
-                }
-            });
             require(['jquery.scrolli'], function(){
                 $(document).ready(function(){
                     $('#scrollbar').scrolli();

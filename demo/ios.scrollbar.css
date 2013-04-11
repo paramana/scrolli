@@ -30,6 +30,11 @@
     -moz-user-select:none;
     width:7px;
     z-index:5;
+    
+    -moz-transition: width 250ms;
+    -webkit-transition: width 250ms;
+    -o-transition: width 250ms;
+    transition: width 250ms;
 }
 .track-over {
     background-color: rgba(0, 0, 0, .15);
@@ -43,7 +48,10 @@
     border-radius:7px;
     position:absolute;
     right:0;
-    -moz-transition:width 250ms;
+    -moz-transition: width 250ms;
+    -webkit-transition: width 250ms;
+    -o-transition: width 250ms;
+    transition: width 250ms;
     width:5px;
 }
 .track-over .thumb {

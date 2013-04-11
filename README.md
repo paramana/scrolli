@@ -15,15 +15,6 @@ An iOS style is included.
 To add the scrollbar to an element you do:    
 `$('#scrollbar').scrolli([options]);`
 
-## Demo
-
-The demo in order to work you need to add jquery and requirejs.
-
-You can do that from your terminal with bower, running the following command:     
-`$ bower install`    
-
-Otherwise you need to add them manually and update the paths in __index.html__  accordingly
-
 ## Options
 
 * `axis` :  vertical or horizontal scrollbar ( x || y ). __default__: y
